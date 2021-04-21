@@ -1,0 +1,93 @@
+#body{
+ position:absolute;
+ width: 550px;
+ height: 550px;
+ left: 50%;
+ top: 50%;
+ margin-left: -275px;
+ margin-top: -275px;
+
+ /*-moz-box-shadow: 2px 2px 3px 3px black;
+ -webkik-box-shadow:2px 2px 3px 3px black;
+ box-shadow: 2px 2px 3px 3px;*/
+}
+.game{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 70%;
+}
+.players{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.clicked{
+ background-color: gray;
+ width: 100px;
+ height: 100px;
+ border: none;
+ /*position: absolute;*/
+ font-size: 80px;
+
+ border-radius: 20px;
+}
+.buttons{
+ background-color: black;
+ width: 100px;
+ height: 100px;
+ border: none;
+ /*position: absolute;*/
+ font-size: 80px;
+
+ border-radius: 20px;
+}
+.buttons:HOVER {
+ background-color: #c83b3b;
+}
+#b11{
+	top:25px;
+	left:100px;
+	border: 1px solid #cebcbc;
+}
+#b12{
+	top:25px;
+	left:200px;
+ 	border: 1px solid #cebcbc;
+}
+#b13{
+	top:25px;
+	left:300px;
+	border: 1px solid #cebcbc;
+}
+#b21{
+	top:125px;
+	left:100px;
+	border: 1px solid #cebcbc;
+}
+#b22{
+	top:125px;
+	left:200px;
+	border: 1px solid #cebcbc;
+}
+#b23{
+	top:125px;
+	left:300px;
+	border: 1px solid #cebcbc;
+}
+#b31{
+	top:225px;
+	left:100px;
+	border: 1px solid #cebcbc;
+}
+#b32{
+	top:225px;
+	left:200px;
+	border: 1px solid #cebcbc;
+}
+#b33{
+	top:225px;
+	left:300px;
+	border: 1px solid #cebcbc;
+}

@@ -1,0 +1,85 @@
+#body{
+ position:absolute;
+ width: 550px;
+ height: 550px;
+ left: 50%;
+ top: 50%;
+ margin-left: -275px;
+ margin-top: -275px;
+}
+.game{
+	display: flex;
+	flex-wrap: wrap;
+	width: 70%;
+}
+.players{
+	width: 100%;
+}
+.clicked{
+ background-color: gray;
+ width: 100px;
+ height: 100px;
+ border: none;
+ font-size: 80px;
+
+ border-radius: 20px;
+}
+.buttons{
+ background-color: black;
+ width: 100px;
+ height: 100px;
+ border: none;
+ font-size: 80px;
+
+ border-radius: 20px;
+}
+.buttons:HOVER {
+	transition-duration: 0.4s;
+ 	background-color: #c83b3b;
+	/*float: left;*/
+}
+#b1{
+	top:25px;
+	left:100px;
+	border: 1px solid #cebcbc;
+}
+#b2{
+	top:25px;
+	left:200px;
+ 	border: 1px solid #cebcbc;
+}
+#b3{
+	top:25px;
+	left:300px;
+	border: 1px solid #cebcbc;
+}
+#b4{
+	top:125px;
+	left:100px;
+	border: 1px solid #cebcbc;
+}
+#b5{
+	top:125px;
+	left:200px;
+	border: 1px solid #cebcbc;
+}
+#b6{
+	top:125px;
+	left:300px;
+	border: 1px solid #cebcbc;
+}
+#b7{
+	top:225px;
+	left:100px;
+	border: 1px solid #cebcbc;
+}
+#b8{
+	top:225px;
+	left:200px;
+	border: 1px solid #cebcbc;
+}
+#b9{
+	top:225px;
+	left:300px;
+	border: 1px solid #cebcbc;
+}
